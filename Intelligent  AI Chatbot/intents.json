@@ -1,0 +1,42 @@
+{"intents": [
+  {"tag":  "Greetings",
+  "patterns": ["Hello","Hey","Hi","How you doing?","Greetings","What's Up?","How's it going?"],
+  "responses": ["Hello","Hey","I'm fine","Good","What can i do for you?"]
+  },
+
+  {"tag": "Goodbye",
+  "patterns": ["See you later","Goodbye","Bye","Good night","Have a good day","See ya"],
+  "responses": ["Talk to you later","Goodbye"]
+  },
+
+  {"tag": "age",
+  "patterns": ["What's your age?","How old is Kshitij","How old?","How old are you?","Age?"],
+  "responses": ["My owner Kshitij is 20 years old!","20 years old!"]
+  },
+
+  {"tag": "name",
+  "patterns": ["What's your name?","Name?","Who are you?","What is your name?","What should I call you?"],
+  "responses": ["I'm Sanctum","You can call me Sanctum","I'm Sanctum assistant of Kshitij"]
+  },
+
+  {"tag": "Thanks",
+  "patterns": ["Thanks","Thank you","That's very helpful"],
+  "responses": ["Happy to help","Any time","My pleasure!"]
+  },
+
+  {"tag": "dep",
+  "patterns": ["What is depression","What's depression","Why depression","Am I depressed","Why I am feeling lonely","Why am I feeling anxiety"],
+  "responses": ["Depression is a common mental health problem that involves a low mood and a loss of interest in activities.","Clinical depression is a serious condition that negatively affects how a person thinks, feels, and behaves. In contrast to normal sadness, clinical depression is persistent, often interferes with a person’s ability to experience or anticipate pleasure, and significantly interferes with functioning in daily life. Untreated, symptoms can last for weeks, months, or years; and if inadequately treated, depression can lead to significant impairment, other health-related issues, and in rare cases, suicide."]
+  },
+
+  {"tag": "symptoms",
+  "patterns": ["Symptoms of depression","What are the signs and symptoms of depression?"],
+  "responses": ["Symptoms of depression can vary from sadness to fatigue.","The persistent feeling of sadness or loss of interest that characterises major depression can lead to a range of behavioural and physical symptoms.","Depression can also be associated with thoughts of suicide.","Depression may include changes in sleep, appetite, energy level, concentration, daily behaviour or self-esteem."]
+  },
+
+  {"tag": "treat",
+  "patterns": ["Can depression be treated or diagnosed", "What to do if feeling depressed", "How depression is treated"],
+  "responses": ["Living with depression can be difficult, but treatment can help improve your quality of life. Talk to your healthcare provider about possible options.","The first step to being diagnosed is to visit a doctor for a medical evaluation. Certain medications, and some medical conditions such as thyroid disorder, can cause similar symptoms as depression. A doctor can rule out these possibilities by conducting a physical examination, interview and lab tests. If the doctor eliminates a medical condition as a cause, he or she can implement treatment or refer the patient to a mental health professional","Psychiatric evaluation.Your mental health professional asks about your symptoms, thoughts, feelings and behavior patterns. You may be asked to fill out a questionnaire to help answer these questions"," Setting boundaries in your professional and personal life can help you feel better.","Speaking with a therapist can help you learn skills to cope with negative feelings. You may also benefit from family or group therapy sessions."]
+  }
+
+]}
